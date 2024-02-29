@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url(https://cdn1.vectorstock.com/i/1000x1000/17/50/abstract-background-calculator-vector-11601750.jpg);
+            background-repeat: no-repeat repeat;
+       } 
+        .calculator {
+            background-color: #6ed9fa;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(39, 183, 46, 0.1);
+            padding: 15px;
+            width: 400px;
+            text-align: center;
+        }
+        #display {
+            width: 300px;
+            height: 50px;
+        }
+        .calculator h2 {
+            margin-top: 0; 
+            color: #ff32e4; 
+        }
+        .screen {
+            background-color: #d47575;
+            border: 1px solid #350a0a;
+            border-radius: 4px;
+            color: #51aade;
+            font-size: 20px;
+            margin-bottom: 10px;
+            padding: 10px;
+            text-align: right;
+        }
+        .buttons {
+            display: grid;
+            grid-gap: 5px;
+            grid-template-columns: repeat(4, 1fr);
+        }
+        button {
+            background-color: #2b4fcf;
+            border: none;
+            border-radius: 10%; 
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+            font-size: 18px;
+            padding: 10px 0;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #c3dbc4;
+        }
+        button.clear {
+            background-color: #181717;
+        }
+        button.clear:hover {
+            background-color: #d32f2f;
+        }
+    </style>
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+        <button onclick="clearDisplay()">C</button>
+        <div class="buttons">
+            <button onclick="appendCharacter('/')">/</button>
+            <button onclick="appendCharacter('*')">*</button>
+            <button onclick="appendCharacter('-')">-</button>
+            <button onclick="appendCharacter('+')">+</button>
+            <button onclick="appendCharacter('8')">8</button>
+            <button onclick="appendCharacter('9')">9</button>
+            <button onclick="appendCharacter('4')">4</button>
+            <button onclick="appendCharacter('7')">7</button>
+            <button onclick="appendCharacter('5')">5</button>
+            <button onclick="appendCharacter('6')">6</button>
+            <button id="equals" onclick="calculateResult()">=</button>
+            <button onclick="appendCharacter('1')">1</button>
+            <button onclick="appendCharacter('2')">2</button>
+            <button onclick="appendCharacter('3')">3</button>
+            <button onclick="appendCharacter('0')">0</button>
+            <button onclick="appendCharacter('.')">.</button>
+        </div>
+    </div>
+
+    <script>
+       
+        const display = document.getElementById('display');
+
+        
+        function clearDisplay() {
+            display.value = '';
+        }
+
+        document.getElementById('equals').addEventListener('click', () => {
+            calculateResult();
+        });
+
+       
+        function calculateResult() {
+            try {
+                const result = eval(display.value); 
+                display.value = result;
+            } catch (error) {
+                display.value = 'Error';
+            }
+        }
+
+        
+        function appendCharacter(character) {
+            display.value += character;
+        }
+    </script>
+</body>
+</html>
