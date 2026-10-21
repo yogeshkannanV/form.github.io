@@ -1,0 +1,11 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: ETERNITY SERVER
+  structure:
+    - type: space
+      key: eternity-handbook
+      title: ETERNITY SERVER — Official Handbook
+      path: eternity-server-handbook
+      default: true
+      content:
+        directory: ./
