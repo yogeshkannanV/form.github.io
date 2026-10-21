@@ -45,14 +45,20 @@ Using another gang's vehicles or assets without permission carries a stated **3-
 ## 7.8 Street Fight Limits
 The source gives a minimum of **15** and maximum of **25** participants. When the event has 25 members, the stated vehicle limit is **8 vehicles total**, including no more than **4 premium-pack PIT vehicles**. It is unclear whether participants are counted per side or overall; organizers must announce the interpretation.
 
-## 7.9 Main War and Location
+## 7.9 Gang Fight Scheduling
+
+- **Monday to Friday:** gang-versus-gang fights are strictly prohibited during city events unless management grants permission in advance. A gang must not initiate or engage in a prohibited fight without that approval.
+- **Saturday and Sunday:** organized gang fights may take place only after registration and approval through the server's official process.
+- Follow the date, time, location, roster, and event conditions confirmed by management. Do not treat weekend availability as automatic approval.
+
+## 7.10 Main War and Location
 Main war format: **12 vs. 12**, with **4 premium PIT vehicles and 1 common vehicle**. The war location should be chosen jointly at the official meeting; the source lists **Sandy Shores or Paleto Bay**. Do not change the approved location without permission.
 
-## 7.10 Takeovers and GCA
+## 7.11 Takeovers and GCA
 GCA locations can be conquered only through an approved takeover initiated by two teams. A gang may attempt a second GCA location only if it already controls one. Abandoned locations return to the Hood Organizer. Section 8 sets out zone and victory wording that needs management clarification.
 
-## 7.11 Civilian-versus-Gang
+## 7.12 Civilian-versus-Gang
 Such scenarios require management approval. The civilian cap is **4**; the source does not clearly specify the gang cap. Unauthorized scenarios carry a proposed **15-day ban for all involved**.
 
-## 7.12 Penalty Summary
+## 7.13 Penalty Summary
 Gang RDM: 4-day ban (conflicts with general RDM); unauthorized use of another gang's assets: 3-day ban; third-party interference: 3-day suspension and/or 100 GLP; dead-body interaction: 50 GLP and 7-day player ban in the gang entry; under 200 GLP removes perks; under 150 GLP restricts special vehicles and suspends gang RP for two weeks; under 25 GLP requires dismantling. Management should resolve overlapping penalties before final publication.
